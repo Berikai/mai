@@ -1,0 +1,24 @@
+<!-- MADE BY BERIKAI 2023 -->
+<!-- https://github.com/berikai -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MaiChat</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/mai.js"></script>
+  <script src="js/message.js"></script>
+</head>
+<body>
+  <!-- Add a chat box to display the chat messages -->
+  <h1>MaiChat</h1>
+  <h4>I just wanted to create something that can at least is like a living creature and answering to inputs by learning the relations between words by processing them as concepts even if it's ultimately stupid.</h4>
+  <div id="chat">
+    <div class="info"><p>Hello! This is Mai.</p><p>It's a some kind of chat bot that processes the given sentences by spliting it with whitespaces into words and processing the relations between the words by looking their usage frequency with each other.</p> <p>It has zero knowledge in its mind right now.</p> <p>Try to say basic sentences with words without dots or commas to make it learn some relations between words and then try to talk with it.</p> <p>Example: i like cats</p></div>
+  </div>
+  <!-- Add a form for user input and a send button -->
+  <form onsubmit="sendMessage(); return false;">
+    <input type="text" id="message-input" />
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
